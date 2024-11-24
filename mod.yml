@@ -1,0 +1,9 @@
+title: MUSTARD
+originalAuthor: danimalforlife
+description: MUSTARD ON THE BEAT HOE. Fixes the sound effect for the finishing blow on a boss.
+
+assets:
+- name: se\se000.win32.scd
+  method: copy
+  source:
+  - name: MUSTARD.scd
