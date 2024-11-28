@@ -1,9 +1,42 @@
-title: MUSTARD
+title: bing bop boom boom boom bop bam
 originalAuthor: danimalforlife
-description: MUSTARD ON THE BEAT HOE. Fixes the sound effect for the finishing blow on a boss.
+description: Fixes Kingdom Key sound effects. And explosion. What they talkin' 'bout? They ain't talkin' 'bout nothin'
 
 assets:
-- name: se\se000.win32.scd
+
+###Kingdom Key (Normal)###
+- name: remastered/obj/W_EX010.a.us/se/obj/se500
   method: copy
   source:
-  - name: MUSTARD.scd
+   - name: bingbopboomboomboombopbam
+
+
+###Kingdom Key (Halloween Town)###
+- name: remastered/obj/W_EX010_NM.a.us/se/obj/se500
+  method: copy
+  source:
+   - name: bingbopboomboomboombopbam
+
+
+
+###Kingdom Key (Space Paranoids)###
+- name: remastered/obj/W_EX010_TR.a.us/se/obj/se500
+  method: copy
+  source:
+   - name: bingbopboomboomboombopbam
+
+
+
+###Kingdom Key (Timeless River)###
+- name: remastered/obj/W_EX010_WI.a.us/se/obj/se500
+  method: copy
+  source:
+   - name: bingbopboomboomboombopbam
+
+
+###Explosion Sound Effect###
+### Sound 38 in file se999.win.32.scd###
+- name: se/se999.win32.scd
+  method: copy
+  source:
+   - name: KABLAM.scd
